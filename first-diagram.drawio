@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T08:39:58.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Gu5NvJh_IqWv-LfwdYal" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-12T17:35:32.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="OKqqNslQUsiKS0XR9Qpw" version="13.6.10" type="github">
   <diagram id="28RyJA0lm8WM50FiXVvW" name="Page-1">
-    <mxGraphModel dx="1767" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C-JBxd__g7ta3socPGrK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C-JBxd__g7ta3socPGrK-1" target="C-JBxd__g7ta3socPGrK-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="110" />
-              <mxPoint x="150" y="110" />
+              <mxPoint x="389" y="100" />
+              <mxPoint x="239" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -20,8 +20,8 @@
         <mxCell id="C-JBxd__g7ta3socPGrK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C-JBxd__g7ta3socPGrK-1" target="C-JBxd__g7ta3socPGrK-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="110" />
-              <mxPoint x="420" y="110" />
+              <mxPoint x="389" y="100" />
+              <mxPoint x="509" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -31,19 +31,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-1" value="You learn something" style="rounded=0;whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="240" y="50" width="120" height="30" as="geometry" />
+          <mxGeometry x="329" y="40" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C-JBxd__g7ta3socPGrK-2" target="C-JBxd__g7ta3socPGrK-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-2" value="You don&#39;t implement it" style="rounded=0;whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="85" y="150" width="130" height="30" as="geometry" />
+          <mxGeometry x="174" y="140" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C-JBxd__g7ta3socPGrK-4" target="C-JBxd__g7ta3socPGrK-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="60" y="250" />
-              <mxPoint x="60" y="65" />
+              <mxPoint x="149" y="240" />
+              <mxPoint x="149" y="55" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -53,13 +53,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-4" value="Makes you think you don&#39;t know it fully&lt;br&gt;(Lack of confidence)" style="whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="80" y="220" width="140" height="60" as="geometry" />
+          <mxGeometry x="169" y="210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C-JBxd__g7ta3socPGrK-7" target="C-JBxd__g7ta3socPGrK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-7" value="You implement it" style="whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="360" y="150" width="120" height="30" as="geometry" />
+          <mxGeometry x="449" y="140" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C-JBxd__g7ta3socPGrK-9" target="C-JBxd__g7ta3socPGrK-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -86,19 +86,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-9" value="You actually know the thing now." style="whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="360" y="220" width="120" height="40" as="geometry" />
+          <mxGeometry x="449" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-12" value="Add to the Resume" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="310" width="129" height="27.64" as="geometry" />
+          <mxGeometry x="349" y="300" width="129" height="27.64" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-14" value="Make your own product" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="310" width="139" height="27.64" as="geometry" />
+          <mxGeometry x="539" y="300" width="139" height="27.64" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-19" value="&lt;i&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Making of something Awesome&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="230" y="160" width="120" height="50" as="geometry" />
+          <mxGeometry x="319" y="150" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="C-JBxd__g7ta3socPGrK-24" value="Freelancing" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="380" width="80" height="20" as="geometry" />
+          <mxGeometry x="469" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-bqDjZOvK_NYIQts1fH7-1" value="&lt;i&gt;ABSphreak&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="219" y="303.82" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
