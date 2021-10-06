@@ -1,120 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T11:07:37.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Ldij_OA-Mi_jxn9HEzk3" version="14.9.0" type="github">
-  <diagram id="3MalXHnwdepBfKnGO1DW" name="Page-1">
-    <mxGraphModel dx="1186" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;BoxNXT Proposed APIs&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="295" y="40" width="215" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-4" target="V8WVrT3vIk0pnv53zzK3-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-4" value="&lt;div&gt;User / Dashboard APIs&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/registerUser&lt;/b&gt; → Register a User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/loginUser&lt;/b&gt; → Login a User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/updateUser&lt;/b&gt; → Update data of logged in User&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getAllQuotes/:id&lt;/b&gt; → Get all Quotes attached to User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/acceptQuote/:id&lt;/b&gt; → Accept a Quote by ID&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/rejectQuote/:id&lt;/b&gt; → Reject a Quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="439" y="80" width="360" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-5" value="&lt;div&gt;Platform APIs&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getAllBoxStyles&lt;/b&gt; → Get all box styles&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getBoxDetails/:id&lt;/b&gt; → Get box details by ID&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/createQuoteReques&lt;/b&gt;t → Create a quote request&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/updateQuoteRequest/:id&lt;/b&gt; → Update a quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="439" y="240" width="360" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-7" value="&lt;div&gt;Backend / Dashboard APIs for Boxes&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt; &lt;b&gt;/addBoxStyle&lt;/b&gt; → Add a given Box Style&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;GET&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/allBoxStyles&lt;/b&gt; → Get all Box Styles&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt; &lt;b&gt;/updateBoxStyle&lt;/b&gt; → Update a Box Style&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getBoxDetails/:id&lt;/b&gt; → Get a Box Style by ID&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;DELETE&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/deleteBoxStyle/:id&lt;/b&gt; → Delete a Box Style by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="29" y="70" width="360" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-8" value="&lt;div&gt;Backend / Dashboard APIs for Quotes&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/allQuoteRequests&lt;/b&gt; → Get all requested Quotes&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getQuoteDetail/:id&lt;/b&gt; → Get details of a Quote Request&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET &lt;/b&gt;&lt;b&gt;/showRejectedQuotes &lt;/b&gt;→ Show just the rejected quotes&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&amp;nbsp;&lt;/b&gt;&lt;b&gt;/showAcceptedQuotes&amp;nbsp;&lt;/b&gt;→ Show just the accepted quotes&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;b&gt;POST&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/updateQuote/:id&lt;/b&gt; → Update a given quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="29" y="200" width="390" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;BoxNXT Proposed User Flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="295" y="370" width="215" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-10" target="V8WVrT3vIk0pnv53zzK3-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-10" value="Login / Register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="208" y="500" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-11" target="V8WVrT3vIk0pnv53zzK3-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-11" value="View Box Styles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="208" y="550" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-12" target="V8WVrT3vIk0pnv53zzK3-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-12" value="Select a Box Style" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="208" y="600" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-13" target="V8WVrT3vIk0pnv53zzK3-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-13" value="Fill / Select Details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="208" y="650" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-14" target="V8WVrT3vIk0pnv53zzK3-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-14" value="Raise a Quote Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="198" y="705" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-19" target="V8WVrT3vIk0pnv53zzK3-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-19" target="V8WVrT3vIk0pnv53zzK3-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-19" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="357" y="410" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="V8WVrT3vIk0pnv53zzK3-22" target="V8WVrT3vIk0pnv53zzK3-24" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-22" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="500" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="V8WVrT3vIk0pnv53zzK3-24" target="V8WVrT3vIk0pnv53zzK3-26" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-24" value="View Quotes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="550" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="V8WVrT3vIk0pnv53zzK3-26" target="V8WVrT3vIk0pnv53zzK3-28" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-26" target="V8WVrT3vIk0pnv53zzK3-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-26" value="See past Quotes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="600" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-28" target="V8WVrT3vIk0pnv53zzK3-36">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="438" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-28" value="Accept Quote" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="378" y="670" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8WVrT3vIk0pnv53zzK3-30" target="V8WVrT3vIk0pnv53zzK3-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-30" value="Reject Quote" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="670" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-34" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="248" y="760" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-36" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="418" y="720" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-38" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="558" y="720" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-40" value="Raising a Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="168" y="470" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V8WVrT3vIk0pnv53zzK3-41" value="Acting upon a Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="368" y="470" width="125" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="3MalXHnwdepBfKnGO1DW" name="Page-1">
+        <mxGraphModel dx="857" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#262626" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;BoxNXT Proposed APIs&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="40" width="215" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-4" target="V8WVrT3vIk0pnv53zzK3-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-4" value="&lt;div&gt;User / Dashboard APIs&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/registerUser&lt;/b&gt; → Register a User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/loginUser&lt;/b&gt; → Login a User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/updateUser&lt;/b&gt; → Update data of logged in User&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getAllQuotes/:id&lt;/b&gt; → Get all Quotes attached to User&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/acceptQuote/:id&lt;/b&gt; → Accept a Quote by ID&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/rejectQuote/:id&lt;/b&gt; → Reject a Quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+                    <mxGeometry x="439" y="80" width="360" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-5" value="&lt;div&gt;Platform APIs&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getAllBoxStyles&lt;/b&gt; → Get all box styles&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getBoxDetails/:id&lt;/b&gt; → Get box details by ID&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/createQuoteReques&lt;/b&gt;t → Create a quote request&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;b&gt;/updateQuoteRequest/:id&lt;/b&gt; → Update a quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+                    <mxGeometry x="439" y="250" width="360" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-7" value="&lt;div&gt;Backend / Dashboard APIs for Boxes&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;POST&lt;/font&gt;&lt;/b&gt; &lt;b&gt;/addBoxStyle&lt;/b&gt; → Add a given Box Style&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;GET&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/allBoxStyles&lt;/b&gt; → Get all Box Styles&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;PUT&lt;/font&gt;&lt;/b&gt; &lt;b&gt;/updateBoxStyle&lt;/b&gt; → Update a Box Style&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getBoxDetails/:id&lt;/b&gt; → Get a Box Style by ID&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;DELETE&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/deleteBoxStyle/:id&lt;/b&gt; → Delete a Box Style by ID&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+                    <mxGeometry x="29" y="70" width="360" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-8" value="&lt;div&gt;Backend / Dashboard APIs for Quotes&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/allQuoteRequests&lt;/b&gt; → Get all requested Quotes&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&lt;/b&gt;&amp;nbsp;&lt;b&gt;/getQuoteDetail/:id&lt;/b&gt; → Get details of a Quote Request&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET &lt;/b&gt;&lt;b&gt;/showRejectedQuotes &lt;/b&gt;→ Show just the rejected quotes&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;GET&amp;nbsp;&lt;/b&gt;&lt;b&gt;/showAcceptedQuotes&amp;nbsp;&lt;/b&gt;→ Show just the accepted quotes&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;b&gt;POST&lt;/b&gt;&lt;/font&gt; &lt;b&gt;/updateQuote/:id&lt;/b&gt; → Update a given quote by ID&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+                    <mxGeometry x="29" y="200" width="390" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;BoxNXT Proposed User Flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="306" y="400" width="215" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-10" target="V8WVrT3vIk0pnv53zzK3-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-10" value="Login / Register" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="219" y="530" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-11" target="V8WVrT3vIk0pnv53zzK3-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-11" value="View Box Styles" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="219" y="580" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-12" target="V8WVrT3vIk0pnv53zzK3-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-12" value="Select a Box Style" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="219" y="630" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-13" target="V8WVrT3vIk0pnv53zzK3-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-13" value="Fill / Select Details" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="219" y="680" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-14" target="V8WVrT3vIk0pnv53zzK3-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-14" value="Raise a Quote Request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="209" y="735" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-19" target="V8WVrT3vIk0pnv53zzK3-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-19" target="V8WVrT3vIk0pnv53zzK3-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-19" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="368" y="440" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-22" target="V8WVrT3vIk0pnv53zzK3-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-22" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="449" y="530" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-24" target="V8WVrT3vIk0pnv53zzK3-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-24" value="View Quotes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="449" y="580" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-26" target="V8WVrT3vIk0pnv53zzK3-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-26" target="V8WVrT3vIk0pnv53zzK3-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-26" value="See past Quotes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="449" y="630" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-28" target="V8WVrT3vIk0pnv53zzK3-36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="449" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-28" value="Accept Quote" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="389" y="700" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V8WVrT3vIk0pnv53zzK3-30" target="V8WVrT3vIk0pnv53zzK3-38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-30" value="Reject Quote" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="529" y="700" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-34" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="259" y="790" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-36" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="429" y="750" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-38" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="569" y="750" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-40" value="Raising a Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="179" y="500" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8WVrT3vIk0pnv53zzK3-41" value="Acting upon a Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="379" y="500" width="125" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
